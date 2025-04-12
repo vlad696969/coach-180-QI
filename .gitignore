@@ -1,0 +1,9 @@
+# Ne jamais versionner les secrets ou fichiers temporaires
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+.vscode/
