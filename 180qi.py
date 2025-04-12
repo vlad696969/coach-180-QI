@@ -50,8 +50,9 @@ st.title("🧠 Coach Pédagogique AI")
 st.markdown("<h4 style='color:#CD0D0D;'>Un mentor. Un objectif. 60 jours pour tout maîtriser.</h4>", unsafe_allow_html=True)
 
 # 🎮 Vidéo explicative de l’application dans un menu dépliant
-with st.expander("📺 Comment utiliser cette application ?"):
-    st.video("https://www.youtube.com/watch?v=bNwxLnizec4&t=156s")
+with st.expander("🎩 Comment utiliser cette application ?"):
+    st.video("https://youtu.be/xnSlp9_c8WQ")
+    st.markdown("<br><a href='https://platform.openai.com/signup' target='_blank'>🔑 Créer un compte et une clé API OpenAI ici</a>", unsafe_allow_html=True)
 
 with st.expander(" Comprendre les modèles et la température"):
     st.markdown("""
